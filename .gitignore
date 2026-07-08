@@ -4,6 +4,8 @@
 /frontend/node_modules
 /frontend/.pnp
 /frontend/.pnp.js
+/backend/bin
+/backend/obj
 
 # testing
 /frontend/coverage
@@ -18,6 +20,7 @@
 # misc
 /frontend/.DS_Store
 /frontend/*.pem
+/.vscode
 
 # debug
 /frontend/npm-debug.log*
@@ -27,6 +30,8 @@
 # local env files
 /frontend/.env*.local
 /frontend/.env
+/backend/.env*.local
+/backend/.env
 
 # vercel
 /frontend/.vercel
@@ -34,3 +39,7 @@
 # typescript
 /frontend/*.tsbuildinfo
 /frontend/next-env.d.ts
+
+#Contains Sensetive Information.
+/backend/appsettings.json
+/backend/appsettings.Development.json
